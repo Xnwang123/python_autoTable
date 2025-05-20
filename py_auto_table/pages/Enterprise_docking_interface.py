@@ -19,3 +19,12 @@ if file_enterprise and file_worker:
         enterprise = runMakeEnterprise(file_enterprise,file_worker)
     st.snow()
     st.data_editor(enterprise,hide_index=True)
+
+st.subheader("๐•ᴗ•๐ 企业排表注意事项")
+st.divider()
+st.markdown(
+    """
+    1.只用安排蛟桥的在大活的宣讲会。\n
+    2.安排的对接助理一般为对应的组长和组员。
+    """
+)
